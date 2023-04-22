@@ -1,0 +1,40 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #121212;
+  background-color: white;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.drawingArea {
+  background-color: white;
+  color: black;
+  width: 100%;
+  height: 80vh;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.dots {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+button {
+  margin: 1% 1% 0% 0%;
+  padding: 1% 3%;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
